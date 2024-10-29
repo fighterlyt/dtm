@@ -9,7 +9,7 @@ package dtmcli
 import (
 	"context"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
 )
 
 // Saga struct of saga

@@ -3,13 +3,13 @@ package registry
 import (
 	"time"
 
-	"github.com/dtm-labs/logger"
+	"github.com/fighterlyt/logger"
 
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/storage"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/boltdb"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/redis"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/sql"
+	"github.com/fighterlyt/dtm/dtmsvr/config"
+	"github.com/fighterlyt/dtm/dtmsvr/storage"
+	"github.com/fighterlyt/dtm/dtmsvr/storage/boltdb"
+	"github.com/fighterlyt/dtm/dtmsvr/storage/redis"
+	"github.com/fighterlyt/dtm/dtmsvr/storage/sql"
 )
 
 var conf = &config.Config

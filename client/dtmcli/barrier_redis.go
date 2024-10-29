@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/logger"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/logger"
 	"github.com/redis/go-redis/v9"
 )
 

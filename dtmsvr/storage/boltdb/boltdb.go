@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmsvr/storage"
-	"github.com/dtm-labs/dtm/dtmutil"
-	"github.com/dtm-labs/logger"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/dtm/dtmsvr/storage"
+	"github.com/fighterlyt/dtm/dtmutil"
+	"github.com/fighterlyt/logger"
 	bolt "go.etcd.io/bbolt"
 )
 

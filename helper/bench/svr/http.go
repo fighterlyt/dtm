@@ -15,12 +15,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmsvr"
-	"github.com/dtm-labs/dtm/dtmutil"
-	"github.com/dtm-labs/dtm/test/busi"
-	"github.com/dtm-labs/logger"
+	"github.com/fighterlyt/dtm/client/dtmcli"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/dtm/dtmsvr"
+	"github.com/fighterlyt/dtm/dtmutil"
+	"github.com/fighterlyt/dtm/test/busi"
+	"github.com/fighterlyt/logger"
 	"github.com/gin-gonic/gin"
 	"github.com/lithammer/shortuuid/v3"
 )

@@ -1,17 +1,17 @@
-module github.com/dtm-labs/dtm
+module github.com/fighterlyt/dtm
 
 go 1.18
 
 require (
 	github.com/agiledragon/gomonkey/v2 v2.2.0
-	github.com/dtm-labs/dtmdriver v0.0.6
-	github.com/dtm-labs/dtmdriver-dapr v0.0.1
-	github.com/dtm-labs/dtmdriver-ego v0.1.8
-	github.com/dtm-labs/dtmdriver-gozero v0.0.7
-	github.com/dtm-labs/dtmdriver-kratos v0.0.10
-	github.com/dtm-labs/dtmdriver-polaris v0.0.5
-	github.com/dtm-labs/dtmdriver-springcloud v1.2.3
-	github.com/dtm-labs/logger v0.0.2
+	github.com/fighterlyt/dtmdriver v0.0.6
+	github.com/fighterlyt/dtmdriver-dapr v0.0.1
+	github.com/fighterlyt/dtmdriver-ego v0.1.8
+	github.com/fighterlyt/dtmdriver-gozero v0.0.7
+	github.com/fighterlyt/dtmdriver-kratos v0.0.10
+	github.com/fighterlyt/dtmdriver-polaris v0.0.5
+	github.com/fighterlyt/dtmdriver-springcloud v1.2.3
+	github.com/fighterlyt/logger v0.0.2
 	github.com/gin-gonic/gin v1.9.1
 	github.com/redis/go-redis/v9 v9.5.1
 	github.com/go-resty/resty/v2 v2.7.0
@@ -176,6 +176,6 @@ require (
 
 retract v1.18.7
 
-// replace github.com/dtm-labs/dtmdriver v0.0.2 => /Users/wangxi/dtm/dtmdriver
+// replace github.com/fighterlyt/dtmdriver v0.0.2 => /Users/wangxi/dtm/dtmdriver
 
-// replace github.com/dtm-labs/dtmdriver-http => /Users/wangxi/dtm/dtmdriver-http-nacos
+// replace github.com/fighterlyt/dtmdriver-http => /Users/wangxi/dtm/dtmdriver-http-nacos

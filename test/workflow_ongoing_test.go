@@ -10,12 +10,12 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/dtmgrpc/dtmgimp"
-	"github.com/dtm-labs/dtm/client/workflow"
-	"github.com/dtm-labs/dtm/test/busi"
-	"github.com/dtm-labs/logger"
+	"github.com/fighterlyt/dtm/client/dtmcli"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/dtm/client/dtmgrpc/dtmgimp"
+	"github.com/fighterlyt/dtm/client/workflow"
+	"github.com/fighterlyt/dtm/test/busi"
+	"github.com/fighterlyt/logger"
 	"github.com/stretchr/testify/assert"
 )
 

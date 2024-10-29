@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/logger"
+	"github.com/fighterlyt/dtm/client/dtmcli"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/logger"
 	"github.com/gin-gonic/gin"
 )
 
@@ -68,7 +68,7 @@ func addJrpcRouter(engine *gin.Engine) {
 					"code":    dtmimp.JrpcCodeFailure,
 					"message": err.Error(),
 				}
-				//// following is commented for server
+				// // following is commented for server
 				// } else if errors.Is(err, dtmcli.ErrOngoing) {
 				// 	jerr = map[string]interface{}{
 				// 		"code":    jrpcCodeOngoing,

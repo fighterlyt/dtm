@@ -11,16 +11,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/workflow"
-	"github.com/dtm-labs/dtm/dtmsvr"
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/registry"
-	"github.com/dtm-labs/dtm/dtmutil"
-	"github.com/dtm-labs/dtm/test/busi"
-	"github.com/dtm-labs/dtmdriver"
-	"github.com/dtm-labs/logger"
+	"github.com/fighterlyt/dtm/client/dtmcli"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/dtm/client/workflow"
+	"github.com/fighterlyt/dtm/dtmsvr"
+	"github.com/fighterlyt/dtm/dtmsvr/config"
+	"github.com/fighterlyt/dtm/dtmsvr/storage/registry"
+	"github.com/fighterlyt/dtm/dtmutil"
+	"github.com/fighterlyt/dtm/test/busi"
+	"github.com/fighterlyt/dtmdriver"
+	"github.com/fighterlyt/logger"
 )
 
 func TestMain(m *testing.M) {

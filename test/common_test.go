@@ -4,11 +4,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/dtmgrpc"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/sql"
-	"github.com/dtm-labs/dtm/dtmutil"
+	"github.com/fighterlyt/dtm/client/dtmcli"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/dtm/client/dtmgrpc"
+	"github.com/fighterlyt/dtm/dtmsvr/storage/sql"
+	"github.com/fighterlyt/dtm/dtmutil"
 	"github.com/stretchr/testify/assert"
 )
 

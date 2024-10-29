@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
+	"github.com/fighterlyt/dtm/client/dtmcli"
 )
 
 // TestNewMsgGrpc ut for NewMsgGrpc

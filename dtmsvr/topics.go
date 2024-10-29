@@ -3,8 +3,8 @@ package dtmsvr
 import (
 	"errors"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/dtmcli/logger"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/dtm/client/dtmcli/logger"
 )
 
 const (

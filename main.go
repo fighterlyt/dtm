@@ -23,10 +23,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/entry"
-	_ "github.com/dtm-labs/dtm/dtmsvr/microservices"
-	"github.com/dtm-labs/logger"
+	"github.com/fighterlyt/dtm/dtmsvr/config"
+	"github.com/fighterlyt/dtm/dtmsvr/entry"
+	_ "github.com/fighterlyt/dtm/dtmsvr/microservices"
+	"github.com/fighterlyt/logger"
 	"github.com/gin-gonic/gin"
 )
 
@@ -142,7 +142,7 @@ func (t *transport) RoundTrip(req *http.Request) (resp *http.Response, err error
 	if err != nil {
 		return nil, err
 	}
-	//modify html only
+	// modify html only
 	if !strings.Contains(resp.Header.Get("Content-Type"), "text/html") {
 		return resp, err
 	}

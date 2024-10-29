@@ -9,7 +9,7 @@ package dtmcli
 import (
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
 	"github.com/go-resty/resty/v2"
 )
 

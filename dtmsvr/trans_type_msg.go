@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/logger"
+	"github.com/fighterlyt/dtm/client/dtmcli"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/logger"
 )
 
 type transMsgProcessor struct {
@@ -49,7 +49,7 @@ func (t *transMsgProcessor) GenBranches() []TransBranch {
 }
 
 type cMsgCustom struct {
-	Delay uint64 //delay call branch, unit second
+	Delay uint64 // delay call branch, unit second
 }
 
 func (t *TransGlobal) mayQueryPrepared(ctx context.Context) {

@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/registry"
-	"github.com/dtm-labs/dtm/dtmutil"
-	"github.com/dtm-labs/dtm/test/busi"
+	"github.com/fighterlyt/dtm/client/dtmcli"
+	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
+	"github.com/fighterlyt/dtm/dtmsvr/storage/registry"
+	"github.com/fighterlyt/dtm/dtmutil"
+	"github.com/fighterlyt/dtm/test/busi"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -131,7 +131,7 @@ func TestAPIAll(t *testing.T) {
 	assert.Equal(t, 0, len(m["transactions"].([]interface{})))
 	assert.Empty(t, nextPos1) // is  over
 
-	//fmt.Printf("pos1:%s,pos2:%s,pos3:%s", nextPos, nextPos2, nextPos3)
+	// fmt.Printf("pos1:%s,pos2:%s,pos3:%s", nextPos, nextPos2, nextPos3)
 }
 
 func TestAPIScanKV(t *testing.T) {
