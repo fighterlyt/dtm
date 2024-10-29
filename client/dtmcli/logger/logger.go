@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"github.com/fighterlyt/logger"
+	"github.com/dtm-labs/logger"
 )
 
 var (

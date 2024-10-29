@@ -9,12 +9,12 @@ import (
 	sync "sync"
 	"time"
 
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
 	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
 	"github.com/fighterlyt/dtm/client/dtmgrpc"
 	"github.com/fighterlyt/dtm/client/dtmgrpc/dtmgpb"
 	"github.com/fighterlyt/dtm/dtmutil"
-	"github.com/fighterlyt/logger"
 	"github.com/gin-gonic/gin"
 	"github.com/go-resty/resty/v2"
 	"github.com/redis/go-redis/v9"

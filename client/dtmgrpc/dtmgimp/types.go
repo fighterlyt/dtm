@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/dtm-labs/dtmdriver"
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
-	"github.com/fighterlyt/dtmdriver"
-	"github.com/fighterlyt/logger"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

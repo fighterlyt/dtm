@@ -10,9 +10,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
 	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
-	"github.com/fighterlyt/logger"
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson"
 )

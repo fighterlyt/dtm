@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
 	"github.com/fighterlyt/dtm/dtmsvr"
 	"github.com/fighterlyt/dtm/dtmsvr/config"
 	"github.com/fighterlyt/dtm/dtmsvr/storage/registry"
 	"github.com/fighterlyt/dtm/helper/bench/svr"
 	"github.com/fighterlyt/dtm/test/busi"
-	"github.com/fighterlyt/logger"
 )
 
 var usage = `bench is a bench test server for dtmf

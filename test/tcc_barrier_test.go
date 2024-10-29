@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
 	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
 	"github.com/fighterlyt/dtm/test/busi"
-	"github.com/fighterlyt/logger"
 	"github.com/gin-gonic/gin"
 	"github.com/go-resty/resty/v2"
 	"github.com/stretchr/testify/assert"

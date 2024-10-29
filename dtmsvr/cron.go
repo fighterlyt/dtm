@@ -13,9 +13,9 @@ import (
 	"runtime/debug"
 	"time"
 
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
 	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
-	"github.com/fighterlyt/logger"
 )
 
 // NowForwardDuration will be set in test, trans may be timeout

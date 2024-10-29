@@ -3,7 +3,7 @@ package registry
 import (
 	"time"
 
-	"github.com/fighterlyt/logger"
+	"github.com/dtm-labs/logger"
 
 	"github.com/fighterlyt/dtm/dtmsvr/config"
 	"github.com/fighterlyt/dtm/dtmsvr/storage"

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
-	"github.com/fighterlyt/logger"
 	"gopkg.in/yaml.v3"
 )
 

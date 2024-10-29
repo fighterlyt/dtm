@@ -11,6 +11,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dtm-labs/dtmdriver"
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
 	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
 	"github.com/fighterlyt/dtm/client/workflow"
@@ -19,8 +21,6 @@ import (
 	"github.com/fighterlyt/dtm/dtmsvr/storage/registry"
 	"github.com/fighterlyt/dtm/dtmutil"
 	"github.com/fighterlyt/dtm/test/busi"
-	"github.com/fighterlyt/dtmdriver"
-	"github.com/fighterlyt/logger"
 )
 
 func TestMain(m *testing.M) {

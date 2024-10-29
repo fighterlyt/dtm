@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fighterlyt/logger"
+	"github.com/dtm-labs/logger"
 	"github.com/go-resty/resty/v2"
 )
 

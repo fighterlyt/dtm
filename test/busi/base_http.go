@@ -13,11 +13,11 @@ import (
 	"io/ioutil"
 	"strings"
 
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
 	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
 	"github.com/fighterlyt/dtm/client/workflow"
 	"github.com/fighterlyt/dtm/dtmutil"
-	"github.com/fighterlyt/logger"
 	"github.com/gin-gonic/gin"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"

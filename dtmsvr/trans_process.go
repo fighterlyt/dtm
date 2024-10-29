@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
 	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
 	"github.com/fighterlyt/dtm/dtmutil"
-	"github.com/fighterlyt/logger"
 )
 
 // Process process global transaction once

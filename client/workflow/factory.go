@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/fighterlyt/logger"
+	"github.com/dtm-labs/logger"
 )
 
 type workflowFactory struct {

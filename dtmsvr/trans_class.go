@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
+	"github.com/dtm-labs/logger"
 	"github.com/fighterlyt/dtm/client/dtmcli"
 	"github.com/fighterlyt/dtm/client/dtmcli/dtmimp"
 	"github.com/fighterlyt/dtm/client/dtmgrpc/dtmgpb"
 	"github.com/fighterlyt/dtm/dtmsvr/storage"
-	"github.com/fighterlyt/logger"
 	"github.com/gin-gonic/gin"
 )
 
